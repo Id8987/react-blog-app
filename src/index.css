@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.card{
+    @apply bg-slate-400 overflow-hidden p-8 rounded w-96 m-3 shadow-lg;
+    
+}
+.test h2{
+    color: linear-gradient(white, blue);
+}
+body{
+    background-color: rgb(231, 228, 228);
+}
+.list-style{
+    @apply py-2 px-3 text-lg font-bold rounded-xl cursor-pointer hover:underline;
+}
+
+.btn{
+    @apply   h-8 px-5 rounded-lg font-semibold;
+}
